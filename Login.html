@@ -25,5 +25,51 @@
 
   <body class="font-geist">
 
+     <!-- login page -->
+    <section class="min-h-screen w-full bg-[#f8fafc] flex items-center justify-center">
+      <div class="container w-full max-w-[520px] p-4 md:p-8 rounded-md bg-white shadow">
+
+        <!-- logo -->
+        <div class="text-center mb-6">
+          <img src="./assets/github-logo.png" alt="github-logo" class="mx-auto w-[100px] mb-6" />
+          <h1 class="font-semibold text-2xl">GitHub Issues Tracker</h1>
+          <p class="text-[#64748b]">Sign in to manage your issues</p>
+        </div>
+
+        <!-- form -->
+        <div class="space-y-2">
+
+          <!-- username -->
+          <label class="label font-medium">Username</label>
+          <input type="text" class="input w-full outline-0" placeholder="Enter Username" id="user-name-input" />
+          <span class="text-[#4a00ff] text-sm">Default: admin</span>
+
+          <!-- password -->
+          <label class="label block mt-4 font-medium">Password</label>
+          <input type="password" class="input w-full outline-0" placeholder="Enter Password" id="user-pass-input" />
+          <span class="text-[#4a00ff] text-sm">Default: admin123</span>
+
+          <!-- submit btn -->
+          <button class="btn bg-[#4a00ff] text-white w-full mt-6 mb-3" id="user-signin-btn">
+            Sign In
+          </button>
+        </div>
+
+        <!-- divider -->
+        <div class="divider"><span class="text-[#1F2937]">OR</span></div>
+
+        <!-- demo credentials -->
+        <div class="text-center">
+          <h3 class="mt-6 text-sm text-[#64748b]">Demo Credentials:</h3>
+          <div class="bg-[#f8fafc] p-6 rounded-md text-black mt-2 text-base">
+            <p><b>Username:</b> admin</p>
+            <p><b>Password:</b> admin123</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
 </body>
 </html>
